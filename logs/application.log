@@ -1,5 +1,5 @@
-2024-03-27T10:44:12.140+07:00  INFO [spl-sms,,] 30188 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 30188 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T10:44:12.142+07:00  INFO [spl-sms,,] 30188 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T10:44:12.140+07:00  INFO [spl-sms,,] 30188 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 30188 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T10:44:12.142+07:00  INFO [spl-sms,,] 30188 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T10:44:12.172+07:00  INFO [spl-sms,,] 30188 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T10:44:12.896+07:00  INFO [spl-sms,,] 30188 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
 2024-03-27T10:44:12.898+07:00  INFO [spl-sms,,] 30188 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
@@ -70,7 +70,7 @@ org.postgresql.util.PSQLException: FATAL: Authentication error, reason: "Authent
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar:3.2.4]
-	at com.tecklens.spl.SplSmsApplication.main(SplSmsApplication.java:10) ~[main/:na]
+	at com.tecklens.spl.SplUserApplication.main(SplSmsApplication.java:10) ~[main/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.4.jar:3.2.4]
@@ -113,7 +113,7 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar:3.2.4]
-	at com.tecklens.spl.SplSmsApplication.main(SplSmsApplication.java:10) ~[main/:na]
+	at com.tecklens.spl.SplUserApplication.main(SplSmsApplication.java:10) ~[main/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.4.jar:3.2.4]
@@ -141,7 +141,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar:3.2.4]
-	at com.tecklens.spl.SplSmsApplication.main(SplSmsApplication.java:10) ~[main/:na]
+	at com.tecklens.spl.SplUserApplication.main(SplSmsApplication.java:10) ~[main/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.4.jar:3.2.4]
@@ -174,8 +174,8 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 33 common frames omitted
 
-2024-03-27T10:49:15.586+07:00  INFO [spl-sms,,] 7788 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 7788 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T10:49:15.588+07:00  INFO [spl-sms,,] 7788 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T10:49:15.586+07:00  INFO [spl-sms,,] 7788 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 7788 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T10:49:15.588+07:00  INFO [spl-sms,,] 7788 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T10:49:15.617+07:00  INFO [spl-sms,,] 7788 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T10:49:16.258+07:00  INFO [spl-sms,,] 7788 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
 2024-03-27T10:49:16.260+07:00  INFO [spl-sms,,] 7788 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
@@ -254,7 +254,7 @@ org.postgresql.util.PSQLException: ERROR: relation "dual" does not exist
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar:3.2.4]
-	at com.tecklens.spl.SplSmsApplication.main(SplSmsApplication.java:10) ~[main/:na]
+	at com.tecklens.spl.SplUserApplication.main(SplSmsApplication.java:10) ~[main/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.4.jar:3.2.4]
@@ -319,7 +319,7 @@ org.postgresql.util.PSQLException: ERROR: relation "dual" does not exist
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar:3.2.4]
-	at com.tecklens.spl.SplSmsApplication.main(SplSmsApplication.java:10) ~[main/:na]
+	at com.tecklens.spl.SplUserApplication.main(SplSmsApplication.java:10) ~[main/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.4.jar:3.2.4]
@@ -362,7 +362,7 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar:3.2.4]
-	at com.tecklens.spl.SplSmsApplication.main(SplSmsApplication.java:10) ~[main/:na]
+	at com.tecklens.spl.SplUserApplication.main(SplSmsApplication.java:10) ~[main/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.4.jar:3.2.4]
@@ -390,7 +390,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar:3.2.4]
-	at com.tecklens.spl.SplSmsApplication.main(SplSmsApplication.java:10) ~[main/:na]
+	at com.tecklens.spl.SplUserApplication.main(SplSmsApplication.java:10) ~[main/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.4.jar:3.2.4]
@@ -423,8 +423,8 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	... 33 common frames omitted
 
-2024-03-27T10:51:01.746+07:00  INFO [spl-sms,,] 24008 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 24008 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T10:51:01.747+07:00  INFO [spl-sms,,] 24008 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T10:51:01.746+07:00  INFO [spl-sms,,] 24008 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 24008 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T10:51:01.747+07:00  INFO [spl-sms,,] 24008 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T10:51:01.775+07:00  INFO [spl-sms,,] 24008 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T10:51:02.465+07:00  INFO [spl-sms,,] 24008 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
 2024-03-27T10:51:02.466+07:00  INFO [spl-sms,,] 24008 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
@@ -477,7 +477,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar:3.2.4]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar:3.2.4]
-	at com.tecklens.spl.SplSmsApplication.main(SplSmsApplication.java:10) ~[main/:na]
+	at com.tecklens.spl.SplUserApplication.main(SplSmsApplication.java:10) ~[main/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.4.jar:3.2.4]
@@ -559,8 +559,8 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 	Caused by: io.netty.channel.StacklessClosedChannelException: null
 		at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0()(Unknown Source)
 
-2024-03-27T10:52:41.904+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 11728 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T10:52:41.905+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T10:52:41.904+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 11728 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T10:52:41.905+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T10:52:41.935+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T10:52:42.609+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
 2024-03-27T10:52:42.610+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -576,12 +576,12 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 2024-03-27T10:52:45.160+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2024-03-27T10:52:45.168+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T10:52:46.885+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-03-27T10:52:46.983+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 5.396 seconds (process running for 5.966)
+2024-03-27T10:52:46.983+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 5.396 seconds (process running for 5.966)
 2024-03-27T10:52:47.000+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T10:52:47.002+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
 2024-03-27T10:52:47.350+07:00  INFO [spl-sms,,] 11728 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.
-2024-03-27T11:08:53.307+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 31648 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T11:08:53.309+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T11:08:53.307+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 31648 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T11:08:53.309+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T11:08:53.339+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T11:08:54.061+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
 2024-03-27T11:08:54.062+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -597,12 +597,12 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 2024-03-27T11:09:01.266+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2024-03-27T11:09:01.269+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:09:02.648+07:00  WARN [spl-sms,,] 31648 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2024-03-27T11:09:02.747+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 9.733 seconds (process running for 10.462)
+2024-03-27T11:09:02.747+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 9.733 seconds (process running for 10.462)
 2024-03-27T11:09:02.766+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:09:02.768+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
 2024-03-27T11:09:03.215+07:00  INFO [spl-sms,,] 31648 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.
-2024-03-27T11:10:23.820+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 30296 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T11:10:23.822+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T11:10:23.820+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 30296 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T11:10:23.822+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T11:10:23.862+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T11:10:24.574+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
 2024-03-27T11:10:24.575+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -618,12 +618,12 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 2024-03-27T11:10:27.486+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2024-03-27T11:10:27.490+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:10:28.871+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35730
-2024-03-27T11:10:28.967+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 5.436 seconds (process running for 6.054)
+2024-03-27T11:10:28.967+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 5.436 seconds (process running for 6.054)
 2024-03-27T11:10:28.986+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:10:28.989+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
 2024-03-27T11:10:29.458+07:00  INFO [spl-sms,,] 30296 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.
-2024-03-27T11:14:05.832+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 33140 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T11:14:05.833+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T11:14:05.832+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 33140 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T11:14:05.833+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T11:14:05.875+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T11:14:06.568+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
 2024-03-27T11:14:06.569+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -639,12 +639,12 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 2024-03-27T11:14:08.948+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2024-03-27T11:14:08.951+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:14:10.187+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35730
-2024-03-27T11:14:10.276+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 4.767 seconds (process running for 5.347)
+2024-03-27T11:14:10.276+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 4.767 seconds (process running for 5.347)
 2024-03-27T11:14:10.293+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:14:10.295+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
 2024-03-27T11:14:11.372+07:00  INFO [spl-sms,,] 33140 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.
-2024-03-27T11:24:14.912+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 31784 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T11:24:14.913+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T11:24:14.912+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 31784 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T11:24:14.913+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T11:24:14.938+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T11:24:15.521+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
 2024-03-27T11:24:15.522+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
@@ -660,12 +660,12 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 2024-03-27T11:24:18.176+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2024-03-27T11:24:18.180+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:24:19.496+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35730
-2024-03-27T11:24:19.587+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 4.967 seconds (process running for 5.533)
+2024-03-27T11:24:19.587+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 4.967 seconds (process running for 5.533)
 2024-03-27T11:24:19.603+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:24:19.605+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
 2024-03-27T11:24:20.120+07:00  INFO [spl-sms,,] 31784 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.
-2024-03-27T11:31:24.218+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 26024 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T11:31:24.220+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T11:31:24.218+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 26024 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T11:31:24.220+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T11:31:24.254+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T11:31:24.254+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2024-03-27T11:31:25.108+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
@@ -691,15 +691,15 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 2024-03-27T11:31:32.194+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7dcf98d0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44941b56, org.springframework.security.web.context.SecurityContextHolderFilter@2d09ba5b, org.springframework.security.web.header.HeaderWriterFilter@122123f7, org.springframework.web.filter.CorsFilter@5eb724fd, org.springframework.security.web.csrf.CsrfFilter@68d8e3c, org.springframework.security.web.authentication.logout.LogoutFilter@450b182, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@f49af9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6082e06b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50e12435, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@585f1fba, org.springframework.security.web.access.ExceptionTranslationFilter@b916411, org.springframework.security.web.access.intercept.AuthorizationFilter@1ed53eaa]
 2024-03-27T11:31:32.448+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35730
 2024-03-27T11:31:32.561+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 6001 (http) with context path '/spl'
-2024-03-27T11:31:32.571+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 8.673 seconds (process running for 9.242)
+2024-03-27T11:31:32.571+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 8.673 seconds (process running for 9.242)
 2024-03-27T11:31:32.735+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [RMI TCP Connection(3)-10.207.112.54] o.a.c.c.C.[Tomcat].[localhost].[/spl]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-03-27T11:31:32.735+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [RMI TCP Connection(3)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-03-27T11:31:32.736+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [RMI TCP Connection(3)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2024-03-27T11:43:42.478+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:43:42.483+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
 2024-03-27T11:43:42.858+07:00  INFO [spl-sms,,] 26024 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.
-2024-03-27T11:43:47.440+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 23588 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T11:43:47.441+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T11:43:47.440+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 23588 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T11:43:47.441+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T11:43:47.470+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T11:43:47.470+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2024-03-27T11:43:48.252+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
@@ -725,7 +725,7 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 2024-03-27T11:43:52.878+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@150038c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@192092cc, org.springframework.security.web.context.SecurityContextHolderFilter@5a2ff190, org.springframework.security.web.header.HeaderWriterFilter@3e0d0bf8, org.springframework.web.filter.CorsFilter@6559fbdb, org.springframework.security.web.csrf.CsrfFilter@5bea6785, org.springframework.security.web.authentication.logout.LogoutFilter@77275e96, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@2669235a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@960b089, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7290236a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77d927d0, org.springframework.security.web.access.ExceptionTranslationFilter@49a0fd7d, org.springframework.security.web.access.intercept.AuthorizationFilter@2e2fda53]
 2024-03-27T11:43:53.113+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35730
 2024-03-27T11:43:53.224+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 6001 (http) with context path '/spl'
-2024-03-27T11:43:53.235+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 6.075 seconds (process running for 6.717)
+2024-03-27T11:43:53.235+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 6.075 seconds (process running for 6.717)
 2024-03-27T11:43:53.440+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [RMI TCP Connection(2)-10.207.112.54] o.a.c.c.C.[Tomcat].[localhost].[/spl]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-03-27T11:43:53.440+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [RMI TCP Connection(2)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-03-27T11:43:53.441+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [RMI TCP Connection(2)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
@@ -733,8 +733,8 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 2024-03-27T11:47:38.952+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:47:38.955+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
 2024-03-27T11:47:39.296+07:00  INFO [spl-sms,,] 23588 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.
-2024-03-27T11:47:43.466+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 19092 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T11:47:43.467+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T11:47:43.466+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 19092 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T11:47:43.467+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T11:47:43.496+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T11:47:43.496+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2024-03-27T11:47:44.221+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
@@ -760,15 +760,15 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 2024-03-27T11:47:48.817+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@632bab73, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5eb6eebe, org.springframework.security.web.context.SecurityContextHolderFilter@16db2220, org.springframework.security.web.header.HeaderWriterFilter@70304585, org.springframework.web.filter.CorsFilter@44ebd685, org.springframework.security.web.csrf.CsrfFilter@6f94c36b, org.springframework.security.web.authentication.logout.LogoutFilter@1fba0b88, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@55270884, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7475093, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@519b338b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cf31f53, org.springframework.security.web.access.ExceptionTranslationFilter@46634162, org.springframework.security.web.access.intercept.AuthorizationFilter@49507ab1]
 2024-03-27T11:47:49.067+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35730
 2024-03-27T11:47:49.174+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 6001 (http) with context path '/spl'
-2024-03-27T11:47:49.184+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 6.003 seconds (process running for 6.591)
+2024-03-27T11:47:49.184+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 6.003 seconds (process running for 6.591)
 2024-03-27T11:47:49.448+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [RMI TCP Connection(2)-10.207.112.54] o.a.c.c.C.[Tomcat].[localhost].[/spl]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-03-27T11:47:49.448+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [RMI TCP Connection(2)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-03-27T11:47:49.450+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [RMI TCP Connection(2)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 2024-03-27T11:52:27.937+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:52:27.940+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
 2024-03-27T11:52:28.307+07:00  INFO [spl-sms,,] 19092 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.
-2024-03-27T11:52:38.361+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 19664 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T11:52:38.362+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T11:52:38.361+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 19664 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T11:52:38.362+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T11:52:38.392+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T11:52:38.392+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2024-03-27T11:52:39.178+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
@@ -794,15 +794,15 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 2024-03-27T11:52:43.732+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6e3dd044, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c8a0341, org.springframework.security.web.context.SecurityContextHolderFilter@53676de1, org.springframework.security.web.header.HeaderWriterFilter@7ad2f049, org.springframework.web.filter.CorsFilter@23d44b6e, org.springframework.security.web.authentication.logout.LogoutFilter@6b7bc7fb, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@2add8484, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2bb40386, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@228eafaf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f000691, org.springframework.security.web.access.ExceptionTranslationFilter@69a02e54, org.springframework.security.web.access.intercept.AuthorizationFilter@1af7e4f]
 2024-03-27T11:52:44.452+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35730
 2024-03-27T11:52:44.566+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 6001 (http) with context path '/spl'
-2024-03-27T11:52:44.577+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 6.521 seconds (process running for 7.124)
+2024-03-27T11:52:44.577+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 6.521 seconds (process running for 7.124)
 2024-03-27T11:52:44.726+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [RMI TCP Connection(2)-10.207.112.54] o.a.c.c.C.[Tomcat].[localhost].[/spl]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-03-27T11:52:44.726+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [RMI TCP Connection(2)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-03-27T11:52:44.727+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [RMI TCP Connection(2)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2024-03-27T11:53:08.334+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:53:08.337+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
 2024-03-27T11:53:08.773+07:00  INFO [spl-sms,,] 19664 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.
-2024-03-27T11:53:13.196+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 21172 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T11:53:13.197+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T11:53:13.196+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 21172 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T11:53:13.197+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T11:53:13.224+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T11:53:13.224+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2024-03-27T11:53:13.889+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
@@ -834,12 +834,12 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 
 2024-03-27T11:53:17.986+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35730
 2024-03-27T11:53:18.083+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 6001 (http) with context path '/spl'
-2024-03-27T11:53:18.093+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 5.157 seconds (process running for 5.751)
+2024-03-27T11:53:18.093+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 5.157 seconds (process running for 5.751)
 2024-03-27T11:53:18.109+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:53:18.111+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
 2024-03-27T11:53:18.640+07:00  INFO [spl-sms,,] 21172 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.
-2024-03-27T11:53:22.301+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 30100 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T11:53:22.302+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T11:53:22.301+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 30100 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T11:53:22.302+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T11:53:22.327+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T11:53:22.327+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2024-03-27T11:53:23.021+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
@@ -874,7 +874,7 @@ Caused by: com.datastax.oss.driver.api.core.AllNodesFailedException: Could not r
 
 2024-03-27T11:53:27.386+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35730
 2024-03-27T11:53:27.487+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 6001 (http) with context path '/spl'
-2024-03-27T11:53:27.497+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 5.461 seconds (process running for 6.059)
+2024-03-27T11:53:27.497+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 5.461 seconds (process running for 6.059)
 2024-03-27T11:53:27.739+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [RMI TCP Connection(3)-10.207.112.54] o.a.c.c.C.[Tomcat].[localhost].[/spl]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-03-27T11:53:27.739+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [RMI TCP Connection(3)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-03-27T11:53:27.740+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [RMI TCP Connection(3)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
@@ -922,8 +922,8 @@ Security filter chain: [
 2024-03-27T11:53:46.932+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T11:53:46.934+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
 2024-03-27T11:53:47.287+07:00  INFO [spl-sms,,] 30100 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.
-2024-03-27T11:53:51.298+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 23744 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T11:53:51.299+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T11:53:51.298+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 23744 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T11:53:51.299+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T11:53:51.326+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T11:53:51.327+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2024-03-27T11:53:52.021+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
@@ -958,7 +958,7 @@ Security filter chain: [
 
 2024-03-27T11:53:56.680+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35730
 2024-03-27T11:53:56.785+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 6001 (http) with context path '/spl'
-2024-03-27T11:53:56.795+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 5.763 seconds (process running for 6.37)
+2024-03-27T11:53:56.795+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 5.763 seconds (process running for 6.37)
 2024-03-27T11:53:57.308+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [RMI TCP Connection(1)-10.207.112.54] o.a.c.c.C.[Tomcat].[localhost].[/spl]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-03-27T11:53:57.308+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [RMI TCP Connection(1)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-03-27T11:53:57.310+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [RMI TCP Connection(1)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
@@ -1190,8 +1190,8 @@ Security filter chain: [
 2024-03-27T12:03:50.916+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T12:03:50.918+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
 2024-03-27T12:03:51.275+07:00  INFO [spl-sms,,] 23744 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.
-2024-03-27T12:03:54.076+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Starting SplSmsApplication using Java 22 with PID 19048 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
-2024-03-27T12:03:54.077+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T12:03:54.076+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Starting SplSmsApplication using Java 22 with PID 19048 (D:\IdeaProjects\spl-sms\build\classes\java\main started by dieptv5 in D:\IdeaProjects\spl-sms)
+2024-03-27T12:03:54.077+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : No active profile set, falling back to 1 default profile: "default"
 2024-03-27T12:03:54.106+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2024-03-27T12:03:54.106+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2024-03-27T12:03:54.877+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
@@ -1226,7 +1226,7 @@ Security filter chain: [
 
 2024-03-27T12:04:01.960+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35730
 2024-03-27T12:04:02.054+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 6001 (http) with context path '/spl'
-2024-03-27T12:04:02.064+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [restartedMain] com.tecklens.spl.SplSmsApplication       : Started SplSmsApplication in 8.283 seconds (process running for 8.864)
+2024-03-27T12:04:02.064+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [restartedMain] com.tecklens.spl.SplUserApplication       : Started SplSmsApplication in 8.283 seconds (process running for 8.864)
 2024-03-27T12:04:02.478+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [RMI TCP Connection(2)-10.207.112.54] o.a.c.c.C.[Tomcat].[localhost].[/spl]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-03-27T12:04:02.478+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [RMI TCP Connection(2)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-03-27T12:04:02.479+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [RMI TCP Connection(2)-10.207.112.54] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
@@ -1692,3 +1692,34 @@ Security filter chain: [
 2024-03-27T13:39:56.703+07:00  WARN [spl-sms,,] 19048 --- [spl-sms] [HikariPoolBooks housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPoolBooks - Failed to validate connection org.postgresql.jdbc.PgConnection@41b53048 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
 2024-03-27T13:59:11.684+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-27T13:59:11.711+07:00  INFO [spl-sms,,] 19048 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
+2024-03-27T15:15:24.782+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] c.tecklens.spl.SplSmsApplicationTests    : Starting SplSmsApplicationTests using Java 17.0.5 with PID 9096 (started by dieptv5 in D:\IdeaProjects\spl-group\spl-user)
+2024-03-27T15:15:24.784+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] c.tecklens.spl.SplSmsApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T15:15:25.594+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-27T15:15:25.596+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27T15:15:25.615+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2024-03-27T15:15:25.838+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b11f534f-d43f-36c4-931c-ac449504b10d
+2024-03-27T15:15:26.323+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27T15:15:26.366+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-27T15:15:26.397+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-27T15:15:26.587+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-27T15:15:26.611+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Starting...
+2024-03-27T15:15:32.009+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPoolBooks - Added connection org.postgresql.jdbc.PgConnection@626b9092
+2024-03-27T15:15:32.012+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Start completed.
+2024-03-27T15:15:32.918+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-27T15:15:32.924+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T15:15:33.048+07:00  WARN [spl-sms,,] 9096 --- [spl-sms] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27T15:15:34.121+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 24 endpoint(s) beneath base path '/actuator'
+2024-03-27T15:15:34.247+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@250fc0d1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ddf193a, org.springframework.security.web.context.SecurityContextHolderFilter@63604641, org.springframework.security.web.header.HeaderWriterFilter@54a04eae, org.springframework.web.filter.CorsFilter@17a5cb99, org.springframework.security.web.authentication.logout.LogoutFilter@189f5ed8, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@2c95cb24, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5091456c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c068c7b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@808fa1, org.springframework.security.web.access.ExceptionTranslationFilter@797a5b31, org.springframework.security.web.access.intercept.AuthorizationFilter@7781b55f]
+2024-03-27T15:15:34.261+07:00  WARN [spl-sms,,] 9096 --- [spl-sms] [Test worker] o.s.s.c.a.web.builders.WebSecurity       : 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+2024-03-27T15:15:35.259+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [Test worker] c.tecklens.spl.SplSmsApplicationTests    : Started SplSmsApplicationTests in 10.717 seconds (process running for 11.671)
+2024-03-27T15:15:35.900+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T15:15:35.902+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown initiated...
+2024-03-27T15:15:36.264+07:00  INFO [spl-sms,,] 9096 --- [spl-sms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPoolBooks - Shutdown completed.

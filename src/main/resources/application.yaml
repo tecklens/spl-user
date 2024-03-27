@@ -57,7 +57,7 @@ spring :
 
   devtools:
     livereload:
-      port: 35730
+      port: 35740
 
   mail:
     host: smtp.mailersend.net
@@ -89,7 +89,7 @@ logging:
 server:
   servlet:
     context-path: /spl
-  port: 6001
+  port: 6002
 
 management:
   endpoints:
