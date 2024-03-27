@@ -1,0 +1,114 @@
+spring :
+  datasource:
+    url: jdbc:postgresql://aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres
+    username: postgres.aysjnkpkxvvbfwxetzzx
+    password: Techlens@321
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 15
+      idle-timeout: 30000 # always alive
+      max-lifetime: 180000 # 1 tieengs
+      connection-timeout: 30000
+      keepalive-time: 30000
+      pool-name: HikariPoolBooks
+      connection-test-query: SELECT 1
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+    defer-datasource-initialization: true
+
+  data:
+    redis:
+      repositories:
+        enabled: false
+      host: 10.248.242.246
+      port: 6379
+
+    web:
+      pageable:
+        max-page-size: 1000
+
+  cache:
+    type: redis
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://10.248.242.207:8083/auth/realms/vcc_sa_aio_staging
+          jwk-set-uri: http://10.248.242.207:8083/auth/realms/vcc_sa_aio_staging/protocol/openid-connect/certs
+
+  application:
+    name: spl-sms
+  sql:
+    init:
+      mode: always
+      platform: postgres
+  kafka:
+    bootstrap-servers: http://10.248.243.110:39092
+
+  devtools:
+    livereload:
+      port: 35730
+
+  mail:
+    host: smtp.mailersend.net
+    port: 587
+    username: MS_i1YkZK@tecklens.com
+    password: 8CavMx4XZYGbWC92
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+logging:
+  pattern:
+    level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'
+  level:
+    com:
+      aio: DEBUG
+    org:
+      apache:
+        kafka:
+          clients:
+            producer: off
+      hibernate:
+        SQL: DEBUG
+  file:
+    name: ./logs/application.log
+
+server:
+  servlet:
+    context-path: /spl
+  port: 6001
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  health:
+    livenessstate:
+      enabled: true
+    readinessstate:
+      enabled: true
+  tracing:
+    sampling:
+      probability: 1.0
+    enabled: true
+
+spl:
+  zalo-access-token:
